@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+	font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    background: url("../img/pattern.jpg");
+}
+
+.card {
+    width: 300px;
+    margin: 30px auto;
+    background-color: #66534f;
+    box-shadow: 0 5px 10px #000000;
+    border-radius: 10px;
+    padding: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.card-photo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%
+}
+.card-title {
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 2px black;
+    
+}
+.contact {
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+.city-photo {
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+a {
+    color: white;
+}
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 40px;   
+}
+.Qb {
+    background-color: white
+}
+
+span {
+    font-size: 30px;
+    font-weight: normal;
+    cursor: pointer;
+    font: Arial;
+    text-shadow: 1px 1px white, 2px 2px #000000;
+    color: #ff0000;
+    transition: all 1s;
+    
+}
+span:hover {
+    text-shadow: 1px 1px white,
+                 2px 2px #8800b1;
+    color: #fff500;
+    }
+ul {
+    color:black;
+    margin: auto
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, rgb(5, 2, 92), purple);
+    animation: animate 6s linear infinite;
+    background-size: 90%;
+}
+@keyframes animate {
+    from {
+        background-position: -2000%;
+    }
+    to {
+        background-position: 2000%;
+    }
+}
+.end {
+    background-color: white;
+    color: black;
+    padding-bottom: 20px;
+}
